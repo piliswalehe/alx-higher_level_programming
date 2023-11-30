@@ -11,6 +11,7 @@ if __name__ == "__main__":
         operator = sys.argv[2]
         b = int(sys.argv[3])
 
+        result = None
         if operator == '+':
             result = add(a, b)
         elif operator == '-':
@@ -21,3 +22,5 @@ if __name__ == "__main__":
            result = div(a, b) 
         else:
             print("Unknown operator. Available operators: +, -, * and /")
+
+            print(f"{a} {operator} {b} = {result}")

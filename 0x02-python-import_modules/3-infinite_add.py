@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if __ name__ == "__main":
+if __name__ == "__main__":
     import sys
     sum_result = 0
     for arg in sys.argv:

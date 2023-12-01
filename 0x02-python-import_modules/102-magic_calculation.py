@@ -8,5 +8,3 @@ def magic_calculation(a, b):
     else:
         result = (a - b) * 2
     return result
-
-dis.dis(magic_calculation)

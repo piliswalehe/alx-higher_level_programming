@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-for num in range(10, 100):
-    if num // 10 != num % 10:
-        print("{}{}".format(min(num // 10, num % 10), max(num // 10, num % 10)),
-                end=", " if num != 98 else "\n")
+for number in range(100):
+    if int(number / 10) != number % 10 and int(number / 10) < number % 10:
+        print("{}{}".format(int(number / 10), number % 10), end="")
+        if (number != 89):
+            print(", ", end="")
+print("")
